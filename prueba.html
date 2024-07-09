@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Encriptación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>Ingrese el texto aquí</h1>
+            <textarea id="inputText" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="buttons">
+                <button onclick="encrypt()">Encriptar</button>
+                <button onclick="decrypt()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="message-box">
+                <p id="outputMessage">Ningún mensaje fue encontrado</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
